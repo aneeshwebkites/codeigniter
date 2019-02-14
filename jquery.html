@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>jquery training New</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+    <body>
+            <script type="text/javascript">
+                  //  $(document).ready();
+               
+                  $(function(){
+                         //alert
+                      alert("welcome to jquery");
+                      //show
+                      $('#hide').click(function(){
+                          $('.welcome').hide();
+                      });
+                      //hide
+                      $('#show').click(function(){
+                          $('.welcome').show();
+                      });
+                      //
+                      $('#hidefade').click(function(){
+                         
+                          $('.welcome').fadeOut(3000);
+                      });
+                      $('#showfade').click(function(){
+                        $('.welcome').fadeIn(3000);
+                      });
+
+                  });
+            </script>
+             <div>
+                    <h1 class="welcome">welcome to jquery</h1>
+             </div>  
+             <a href="#" id="hidefade">hide-fade</a> <br/>
+             <a href="#" id="showfade">show-fade</a> <br/>
+             <a href="#" id="hide">hide</a> <br/>
+             <a href="#" id="show">show</a> <br/>
+    </body>
+</html>

@@ -1,0 +1,57 @@
+#container
+{
+    width: 1200px;
+    border:1px solid red;
+    height: 1500px;
+    margin: auto;
+}
+#kitchen
+{
+    width: 498px;
+    height: 500px;
+    border:1px solid blue;
+    float: left;
+}
+#entrance
+{
+    width: 198px;
+    height: 500px; 
+    border:1px solid green;
+    float: left;
+}
+#sitting
+{
+    width: 498px;
+    height: 500px; 
+    border:1px solid green;
+    float: left;
+}
+#reception{
+    width: 698px;
+    border:1px solid green;
+    float: left;
+    height: 500px;
+}
+#toilet{
+    width: 498px;
+    border:1px solid green;
+    float: left;
+    height: 500px;
+}
+.clearfix
+{
+    clear: both;
+}
+
+#room1{
+    width: 598px;
+    height: 500px;
+    float: left;
+    border:1px solid gray;
+}
+#room2{
+    width: 598px;
+    height: 500px;
+    float: left;
+    border:1px solid gray;
+}

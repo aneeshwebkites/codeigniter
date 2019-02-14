@@ -1,0 +1,64 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+}
+.container
+{
+    width: 1200px;
+    border:1px solid red;
+    margin: auto;
+}
+#coffee
+{
+    float: left;
+    width: 498px;
+    height: 500px;
+    border:1px solid gray;
+}
+#entrance
+{
+    float: left;
+    width: 198px;
+    height: 500px;
+    border:1px solid gray;
+}
+#sitting
+{
+    float: left;
+    width: 498px;
+    height: 500px;
+    border:1px solid gray;
+}
+.clearfix
+{
+    clear: both;
+}
+#reception
+{
+    float: left;
+    width: 898px;
+    height: 500px;
+    border:1px solid gray;
+}
+#restroom
+{
+    float: left;
+    width: 298px;
+    height: 500px;
+    border:1px solid gray;
+}
+#room1
+{
+    float: left;
+    width: 598px;
+    height: 500px;
+    border:1px solid gray;
+}
+#room2
+{
+    float: left;
+    width: 598px;
+    height: 500px;
+    border:1px solid gray;
+}

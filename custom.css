@@ -1,0 +1,40 @@
+#coffee
+{
+    height: 500px;
+    border:1px solid gray;
+}
+#entrance
+{
+    height: 500px;
+    border:1px solid gray;
+}
+#sitting
+{
+    height: 500px;
+    border:1px solid gray;
+}
+
+#reception
+{
+    height: 500px;
+    border:1px solid gray;
+}
+#restroom
+{
+    height: 500px;
+    border:1px solid gray;
+}
+#room1
+{
+    height: 500px;
+    border:1px solid gray;
+}
+#room2
+{
+    height: 500px;
+    border:1px solid gray;
+}
+.btn-primary
+{
+    background-color:red;
+}
